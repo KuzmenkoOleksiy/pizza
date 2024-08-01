@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 150px;
+}
+
+img{
+    width: 550px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hero{
+    background-color: rgb(241, 224, 152);
+}
+.dough{
+    background-color: rgb(219, 170, 146);
+}
+.filling{
+    background-color: rgb(241, 224, 152);
+}
+.footer{
+    background-color:rgb(208, 75, 75);
+}
+.header-flex,
+.hero-flex,
+.dough-flex,
+.filling-flex,
+.footer-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-flex{
+    justify-content: center;
+}
+
+.header{
+    background-color:rgb(208, 75, 75);
+}
+
+.footer-img{
+    width: 30px;
+}
+.nav-link{
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 40px;
+}
+h1,h2{
+    font-size: 40px;
+    color: #4b3535;
+}
+p,ul{
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-text{
+    color: white;
+}
